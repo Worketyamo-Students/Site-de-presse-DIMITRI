@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@100;200;300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@100;200;300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@100;200;300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    width: 100%;
+    padding: 0rem 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 27rem;
+    margin-left: 2rem;    
+}
+
+header>img{
+    height: 10rem;
+}
+
+:root{
+    --police-ibm: IBM Plex Sans Hebrew;
+    --police-inter: Inter;
+    --police-Open: Open Sans;
+    --taille-two: 2rem;
+    --taille: 2.2rem;
+    --color-footer:#79AC78;
+    --color: #618264;
+}
+
+ul{
+    cursor: pointer;
+    display: flex;
+    list-style: none;
+    gap: 4rem;
+    align-items: center;
+    font-size: var(--taille);
+    font-family: var(--police-inter);
+}
+
+header>button:hover{
+    box-shadow: 4px 4px 15px black;
+}
+
+header>div>img{
+    display: none;
+}
+
+header>button{
+    cursor: pointer;
+    border: 0px solid;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: var(--color);
+    border-radius: 50px;
+    width: 15rem;
+    color: white;
+    height: 6rem;
+    margin-top: 1.5rem;
+    font-family: var(--police-inter);
+    padding: 0px 2.5rem;
+}
+
+.span{
+    color: var(--color-footer);
+}
+
+.span>span{
+    border-bottom: 2px solid var(--color-footer);
+}
+
+.section-1{
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem 4rem;
+    gap: 4rem;
+}
+
+.section-1>img{
+    width: 75rem;
+}
+
+.block-1{
+    display: flex;
+    gap: 1rem;
+}
+
+#carreau{
+    display: flex;
+    align-items:center;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+#carreau>p{
+    margin-left: 1rem;
+    font-size: var(--taille-two);
+}
+
+#description{
+    font-size: 1.4rem;
+    font-family: var(--police-Open);
+    font-weight: normal;
+}
+.title{
+    font-size: var(--taille-two);
+    font-family: var(--police-ibm);
+    font-weight: bold;
+}
+
+.section-2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.title-2{
+    color:black;
+    font-size: var(--taille);
+    font-family: var(--police-ibm);
+    font-weight: bold;
+}
+.title-4{
+    color: var(--color-footer);
+}
+
+.date{
+    color: var(--color-footer);
+    font-size: 1.3rem;
+    font-family: var(--police-inter);
+}
+
+.section-7{
+    display: flex;
+    margin: 0px 5rem;
+    gap: 5rem;
+}
+
+.section-7>.block-20{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+    top: 8rem;
+    left: 0px;
+}
+
+.section-3{
+    text-align: center;
+    font-size: 4.8rem;
+    font-family: var(--police-ibm);
+}
+
+.section-4{
+    display: flex;
+    gap: 3rem;
+    margin: 2.8rem 5rem;
+    align-items: center;
+}
+
+.title-4{
+    font-size: 4rem;
+    font-family: var(--police-ibm);
+    color: var(--color);
+    font-weight: bold;
+}
+
+.section-4>p>#description-4{
+    font-size: 1.4rem;
+    font-family: var(--police-Open);
+    font-weight: normal;
+    color: black;
+    line-height: 0%;
+}
+
+.section-5>img{
+    width: 90%;
+}
+
+.section-5{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 0rem;
+}
+
+.section-5>.block-5{
+    display: flex;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    transform: rotate(-90deg);
+    gap: 0.5rem;
+}
+
+.section-8{
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    flex-wrap: wrap;
+}
+
+.end{
+    background-color: var(--color-footer);
+    padding: 5rem;
+    text-align: center;
+}
+
+.end>.cana{
+    height: 15rem;
+}
+
+.end>.icon{
+    width: 30rem;
+    padding-bottom: 2rem;
+}
+
+.section-5>.block-5>div>p{
+    /* font-size: 1.5rem; */
+    font-family: var(--police-ibm);
+    color: var(--color);
+}
+
+#rectangle{
+    width: 4rem;
+    height: 1rem;
+    border: 0px solid;
+    background-color: var(--color);
+}
+
+#rectangle-1{
+    width: 4rem;
+    height: 1rem;
+    border: 0px solid;
+    background-color: var(--color);
+}
+
+@media screen and (max-width: 600px) {
+    .nav{
+        width: 100%;
+        height: 4rem;
+        background-color: #D9D9D9;
+        position: relative;
+        top: 0px;
+}
+    ul{display: none;}
+    button{display: none;}
+    .box{
+        border-bottom: 1px solid #443434;
+        border-top: 1px solid #443434;
+        padding: 2rem 0px;
+    }
+    header>div>img{display: block; cursor: pointer; margin-top: 2rem;}
+    .section-1{flex-wrap: wrap;}
+    .section-1>img{width: 100%;}
+    .section-2{gap: 4rem; margin: 0rem 4rem;}
+    .section-3{font-size: 2.4rem; font-weight: bold;}
+    .section-3>img{width: 80%;}
+    .section-4{flex-wrap: wrap; flex-direction: column-reverse;}
+    .section-4>img{width: 100%;}
+    .section-7 img{width: 30rem; height: 20rem;}
+    #rodrigue-img{position: relative;right: 5.5rem;}
+    .section-7{line-height: 3.5rem;}
+    .section-7>.block-20>.block-22>.absolute{top: 1rem; width: 19rem; left: 0.1rem;}
+    .section-7>.block-20>.block-22>.relative{position: relative; right: 5.5rem;}
+    .title-2{font-size: 1.3rem;}
+    .section-7{gap: 1rem;}
+    .block-20{right: 0rem;}
+    .section-5{flex-direction: column-reverse; gap: 2rem;}
+    .section-5>.block-5{transform: rotate(0deg); display: flex; flex-direction: row; gap: 2rem; font-size: 3rem;position: relative;right: 11rem;}
+    #rectangle{
+        width: 1rem;
+        height: 3rem;
+        border: 0px solid;
+        background-color: var(--color);        
+    }
+    #rectangle-1{display: none;}
+}
